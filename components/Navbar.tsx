@@ -16,13 +16,13 @@ const Navbar = () => {
             </a>
           </Link>
           <a href="/">
-            <p>Features</p>
+            <p className="hover:text-black">Features</p>
           </a>
           <a href="/">
-            <p>Prices</p>
+            <p className="hover:text-black">Prices</p>
           </a>
           <a href="/">
-            <p>Resources</p>
+            <p className="hover:text-black">Resources</p>
           </a>
         </div>
         <div className="flex xl:gap-8 md:gap-3 items-center text-[#bfbfbf] font-semibold">
@@ -66,12 +66,12 @@ const Navbar = () => {
           }
         >
           <div className="border-b-[#646363] border-b grid gap-8 pb-8">
-            <p>Features</p>
-            <p>Pricing</p>
-            <p>Resources</p>
+            <p className="cursor-pointer hover:text-[#2acfcf]">Features</p>
+            <p className="cursor-pointer hover:text-[#2acfcf]">Pricing</p>
+            <p className="cursor-pointer hover:text-[#2acfcf]">Resources</p>
           </div>
           <div className="grid gap-8">
-            <p>Login</p>
+            <p className="cursor-pointer hover:text-[#2acfcf]">Login</p>
             <p className="bg-[#2acfcf] text-white px-3 py-2 rounded-full text-sm cursor-pointer">
               Sign Up
             </p>

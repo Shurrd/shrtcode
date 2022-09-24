@@ -2,12 +2,12 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="mt-24 flex flex-col gap-7 md:gap-0 md:flex-row items-center justify-between">
+    <section className="mt-10 flex flex-col gap-7 md:gap-0 md:flex-row items-center justify-between">
       <div className="flex flex-col gap-3 lg:pr-16 text-center md:text-start items-center md:items-start">
         <p className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.25] lg:leading-[1.25] md:leading-[1.25] text-[#35323e]">
           More than just shorter links
         </p>
-        <p className="text-[#bfbfbf]">
+        <p className="text-[#bfbfbf] md:pr-8">
           Build your brand’s recognition and get detailed insights on how your
           links are performing.
         </p>
