@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 
 const Home: NextPage = () => {
@@ -8,8 +9,9 @@ const Home: NextPage = () => {
       <Head>
         <title>Shortly - Shorten your URLs</title>
       </Head>
-      <div className="px-28">
+      <div className="md:px-28 px-10 overflow-x-hidden">
         <Navbar />
+        <Hero />
       </div>
     </>
   );
