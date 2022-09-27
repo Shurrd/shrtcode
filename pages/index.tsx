@@ -11,7 +11,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Shortly - Shorten your URLs</title>
       </Head>
-      <div className="md:px-28 px-10 overflow-x-hidden">
+      <div className="md:px-16 lg:px-32 px-10 overflow-x-hidden">
         <Navbar />
         <Hero />
         <Search />

@@ -7,3 +7,23 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+.feature::after {
+  content: "";
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  width: 50%;
+  height: 0.5rem;
+  background-color: #2acfcf;
+}
+
+@media screen and (max-width: 768px) {
+  .feature::after {
+    left: 49%;
+    top: 20%;
+    height: 30rem;
+    width: 0.5rem;
+    background-color: #2acfcf;
+  }
+}
