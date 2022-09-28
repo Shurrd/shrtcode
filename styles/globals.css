@@ -27,3 +27,15 @@ body {
     background-color: #2acfcf;
   }
 }
+
+.text p:not(:first-child) {
+  margin-bottom: 1rem;
+  font-size: 14px;
+}
+.text p:not(:first-child):hover {
+  color: #2acfcf;
+  cursor: pointer;
+}
+.icons img {
+  cursor: pointer;
+}

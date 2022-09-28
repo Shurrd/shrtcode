@@ -2,7 +2,7 @@ import React from "react";
 
 const Advanced = () => {
   return (
-    <section className="bg-gray-200 -mx-32 px-32 flex flex-col items-center pt-5 pb-40">
+    <section className="bg-gray-200 -mx-32 px-32 flex flex-col items-center pt-5 pb-20 md:pb-40">
       <div className="text-center mt-32">
         <p className="text-[#35323e] text-2xl md:text-3xl font-bold">
           Advanced Statistics
@@ -13,7 +13,7 @@ const Advanced = () => {
         </p>
       </div>
       <div className="md:flex-row flex flex-col lg:gap-8 md:gap-3 gap-20 mt-16 relative feature">
-        <div className="bg-white xl:pb-12 lg:pb-6 pb-12 pt-14 lg:pt-16 md:px-5 px-8 lg:px-8 rounded-md text-center md:text-start relative flex flex-col justify-center items-center md:items-start z-10">
+        <div className="bg-white xl:pb-12 lg:pb-6 pb-12 pt-14 lg:pt-16 md:px-5 px-8 lg:px-8 rounded-md text-center md:text-start relative flex flex-col justify-center items-center md:items-start z-10 shadow-md">
           <img
             src="/icon-brand-recognition.svg"
             alt=""
@@ -27,7 +27,7 @@ const Advanced = () => {
             mean a thing. Branded links help instil confidence in your content.
           </p>
         </div>
-        <div className="bg-white xl:pb-12 lg:pb-6 pb-12 pt-14 lg:pt-16 md:px-5 px-8 lg:px-8 rounded-md text-center md:text-start relative md:mb-[-4%] md:mt-[4%] mb-0 mt-0 flex flex-col justify-center items-center md:items-start z-10">
+        <div className="bg-white xl:pb-12 lg:pb-6 pb-12 pt-14 lg:pt-16 md:px-5 px-8 lg:px-8 rounded-md text-center md:text-start relative md:mb-[-4%] md:mt-[4%] mb-0 mt-0 flex flex-col justify-center items-center md:items-start z-10 shadow-md">
           <img
             src="/icon-detailed-records.svg"
             alt=""
@@ -41,7 +41,7 @@ const Advanced = () => {
             where people engage with your content helps inform better decisions.
           </p>
         </div>
-        <div className="bg-white xl:pb-12 lg:pb-6 pb-12 pt-14 lg:pt-16 md:px-5 px-8 lg:px-8 rounded-md text-center md:text-start relative md:mb-[-8%] md:mt-[8%] mb-0 mt-0 flex flex-col justify-center items-center md:items-start z-10">
+        <div className="bg-white xl:pb-12 lg:pb-6 pb-12 pt-14 lg:pt-16 md:px-5 px-8 lg:px-8 rounded-md text-center md:text-start relative md:mb-[-8%] md:mt-[8%] mb-0 mt-0 flex flex-col justify-center items-center md:items-start z-10 shadow-md">
           <img
             src="/icon-fully-customizable.svg"
             alt=""

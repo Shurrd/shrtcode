@@ -1,6 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Advanced from "../components/Advanced";
+import Boost from "../components/Boost";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Search from "../components/Search";
@@ -16,6 +18,8 @@ const Home: NextPage = () => {
         <Hero />
         <Search />
         <Advanced />
+        <Boost />
+        <Footer />
       </div>
     </>
   );
