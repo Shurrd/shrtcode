@@ -11,9 +11,9 @@ const Hero = () => {
           Build your brand’s recognition and get detailed insights on how your
           links are performing.
         </p>
-        <p className="bg-[#2acfcf] text-white px-5 py-2 rounded-full text-sm w-max mt-3 cursor-pointer">
+        <button className="bg-[#2acfcf] text-white px-5 py-2 rounded-full text-sm w-max mt-3 cursor-pointer focus:bg-slate-800">
           Get Started
-        </p>
+        </button>
       </div>
       <div className="w-[850px] sm:pl-0 pl-56 sm:w-full h-[350px] md:h-[250px] sm:h-full md:w-[800px] lg:w-full lg:h-full md:order-last order-first md:-mr-32 xl:-mr-44 lg:-mr-44">
         <img

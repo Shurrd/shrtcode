@@ -6,9 +6,9 @@ const Boost = () => {
       <p className="text-white lg:text-3xl text-2xl font-bold">
         Boost your links today
       </p>
-      <p className="bg-[#2acfcf] text-white px-5 py-2 rounded-full text-sm w-max mt-3 cursor-pointer">
+      <button className="bg-[#2acfcf] text-white px-5 py-2 rounded-full text-sm w-max mt-3 cursor-pointer">
         Get Started
-      </p>
+      </button>
     </section>
   );
 };

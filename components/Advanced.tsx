@@ -1,9 +1,11 @@
 import React from "react";
+import Links from "./Links";
 
-const Advanced = () => {
+const Advanced = ({ data }: IData) => {
   return (
-    <section className="bg-gray-200 -mx-32 px-32 flex flex-col items-center pt-5 pb-20 md:pb-40">
-      <div className="text-center mt-32">
+    <section className="bg-gray-200 -mx-32 px-32 flex flex-col items-center pb-20 pt-20 md:pb-40">
+      <Links data={data} />
+      <div className="text-center mt-16">
         <p className="text-[#35323e] text-2xl md:text-3xl font-bold">
           Advanced Statistics
         </p>
