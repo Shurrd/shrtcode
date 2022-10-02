@@ -18,7 +18,7 @@ const Advanced = ({ data }: IData) => {
         <div className="bg-white xl:pb-12 lg:pb-6 pb-12 pt-14 lg:pt-16 md:px-5 px-8 lg:px-8 rounded-md text-center md:text-start relative flex flex-col justify-center items-center md:items-start z-10 shadow-md">
           <img
             src="/icon-brand-recognition.svg"
-            alt=""
+            alt="icon"
             className="absolute top-[-13%] lg:top-[-13%] md:top-[-8%] bg-[#3b3054] px-3 py-3 rounded-full"
           />
           <p className="text-[22px] lg:text-[22px] text-[#232129] font-bold">
@@ -32,7 +32,7 @@ const Advanced = ({ data }: IData) => {
         <div className="bg-white xl:pb-12 lg:pb-6 pb-12 pt-14 lg:pt-16 md:px-5 px-8 lg:px-8 rounded-md text-center md:text-start relative md:mb-[-4%] md:mt-[4%] mb-0 mt-0 flex flex-col justify-center items-center md:items-start z-10 shadow-md">
           <img
             src="/icon-detailed-records.svg"
-            alt=""
+            alt="icon"
             className="absolute top-[-13%] lg:top-[-13%] md:top-[-8%] bg-[#3b3054] px-3 py-3 rounded-full"
           />
           <p className="text-[22px] text-[#232129] font-bold">
@@ -46,7 +46,7 @@ const Advanced = ({ data }: IData) => {
         <div className="bg-white xl:pb-12 lg:pb-6 pb-12 pt-14 lg:pt-16 md:px-5 px-8 lg:px-8 rounded-md text-center md:text-start relative md:mb-[-8%] md:mt-[8%] mb-0 mt-0 flex flex-col justify-center items-center md:items-start z-10 shadow-md">
           <img
             src="/icon-fully-customizable.svg"
-            alt=""
+            alt="icon"
             className="absolute top-[-14%] lg:top-[-14%] md:top-[-8%] lg:left-auto bg-[#3b3054] px-2 py-2 rounded-full"
           />
           <p className="text-[22px] text-[#232129] font-bold">

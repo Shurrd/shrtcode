@@ -32,10 +32,10 @@ const Footer = () => {
           <p>Contact</p>
         </div>
         <div className="flex gap-4 md:h-5 h-6 w-max icons">
-          <img src="/icon-facebook.svg" alt="" />
-          <img src="/icon-twitter.svg" alt="" />
-          <img src="/icon-pinterest.svg" alt="" />
-          <img src="/icon-instagram.svg" alt="" />
+          <img src="/icon-facebook.svg" alt="facebook" />
+          <img src="/icon-twitter.svg" alt="twitter" />
+          <img src="/icon-pinterest.svg" alt="pinterest" />
+          <img src="/icon-instagram.svg" alt="instagram" />
         </div>
       </div>
     </footer>

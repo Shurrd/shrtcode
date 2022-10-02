@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="w-[850px] sm:pl-0 pl-56 sm:w-full h-[350px] md:h-[250px] sm:h-full md:w-[800px] lg:w-full lg:h-full md:order-last order-first md:-mr-32 xl:-mr-44 lg:-mr-44">
         <img
           src="/illustration-working.svg"
-          alt=""
+          alt="illustration"
           loading="lazy"
           className="w-full h-full"
         />
