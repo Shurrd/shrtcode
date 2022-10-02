@@ -13,19 +13,19 @@ const Footer = () => {
       </svg>
       <div className="flex md:flex-row lg:gap-16 md:gap-8 xl:gap-28 gap-5 flex-col md:text-start text-center">
         <div className="text">
-          <p className="text-white font-bold mb-4 md:mt-0 mt-10">Features</p>
+          <p className="text-white font-bold mb-6 md:mt-0 mt-10">Features</p>
           <p className="">Link Shortening</p>
           <p>Branded Links</p>
           <p>Analytics</p>
         </div>
         <div className="text">
-          <p className="text-white font-bold mb-4">Resources</p>
+          <p className="text-white font-bold mb-6">Resources</p>
           <p>Blog</p>
           <p>Developers</p>
           <p>Support</p>
         </div>
         <div className="text">
-          <p className="text-white font-bold mb-4">Company</p>
+          <p className="text-white font-bold mb-6">Company</p>
           <p>About</p>
           <p>Our Team</p>
           <p>Careers</p>

@@ -6,7 +6,7 @@ const Search = ({
   handleSubmit,
 }: {
   url: string;
-  setUrl: Dispatch<string>;
+  setUrl: Dispatch<React.SetStateAction<string>>;
   handleSubmit: () => Promise<void>;
 }) => {
   return (

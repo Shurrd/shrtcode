@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 const Links = ({ data }: IData) => {
   const [buttonText, setButtonText] = useState("Copy");
