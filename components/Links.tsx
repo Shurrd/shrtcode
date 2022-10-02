@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useState } from "react";
 
 const Links = ({ data }: IData) => {
@@ -15,14 +16,11 @@ const Links = ({ data }: IData) => {
           {data?.result?.original_link}
         </p>
         <div className="flex md:flex-row flex-col md:items-center items-start md:gap-4 gap-3 w-full md:w-max">
-          <a
-            href={data?.result?.full_short_link}
-            target="_blank"
-            rel="noreferrer"
-            className="text-[#2acfcf]"
-          >
-            {data?.result?.short_link}
-          </a>
+          <Link href={data?.result?.full_short_link}>
+            <a target="_blank" rel="noreferrer" className="text-[#2acfcf]">
+              {data?.result?.short_link}
+            </a>
+          </Link>
           <button
             className="bg-[#2acfcf] text-white px-8 py-2 rounded-md cursor-pointer w-full md:w-max text-center focus:bg-slate-800"
             onClick={handleCopy}

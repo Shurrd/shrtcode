@@ -15,28 +15,28 @@ const Navbar = () => {
               <Image src="/logo.svg" alt="Shortly" width={120} height={35} />
             </a>
           </Link>
-          <a href="/">
+          <p>
             <p className="hover:text-black">Features</p>
-          </a>
-          <a href="/">
+          </p>
+          <p>
             <p className="hover:text-black">Prices</p>
-          </a>
-          <a href="/">
+          </p>
+          <p>
             <p className="hover:text-black">Resources</p>
-          </a>
+          </p>
         </div>
         <div className="flex xl:gap-8 md:gap-3 items-center text-[#bfbfbf] font-semibold">
           <Link href="/">
-            <a>
+            <p>
               <p>Login</p>
-            </a>
+            </p>
           </Link>
           <Link href="/">
-            <a>
+            <p>
               <p className="bg-[#2acfcf] text-white px-3 py-2 rounded-full text-sm">
                 Sign Up
               </p>
-            </a>
+            </p>
           </Link>
         </div>
       </nav>
